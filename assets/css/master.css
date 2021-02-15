@@ -55,12 +55,17 @@ body {
   background-color: #fff;
   padding: 20px;
   margin-bottom: 50px;
+  border-radius: 8px;
 }
 
 .btn-card > button {
   width: 100%;
   margin-bottom: 5px;
   font-weight: bold;
+}
+
+.font-weight500 {
+  font-weight: 500;
 }
 
 .account {
@@ -79,12 +84,22 @@ body {
 }
 
 .logo-g {
-  width: 25px;
-  position: absolute;
-  left: 0;
-  top: 0;
+  width: 20px;
+  float: left;
 }
 
 .margin-top {
   margin-top: 10px;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .navbar-header {
+    width: 100%;
+  }
+    .navbar-toggle {
+    display: block;
+  }
+    .navbar-nav, .navbar-right {
+    display: none;
+  }
 }
