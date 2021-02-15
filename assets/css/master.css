@@ -39,12 +39,24 @@ body {
   background-repeat: no-repeat;
 }
 
+.jumbo-title {
+  font-size: 50px;
+}
+
+.jumbo-text {
+  font-size: 20px;
+}
+
 .darkblue {
   color: #031c4e;
 }
 
 .lightblue {
   color: #016dff;
+}
+
+.lightgrey {
+  color: #6f7b97;
 }
 
 .content > .form > h3 {
@@ -68,6 +80,10 @@ body {
   font-weight: 500;
 }
 
+.margin-bottom50 {
+  margin-bottom: 50px;
+}
+
 .account {
   color: #fff;
   background-color: #016dff;
@@ -79,8 +95,11 @@ body {
   background-color: rgba(1, 109, 255, 0.6)
 }
 
-.btn-signup-cont {
+
+
+.btn-signup {
   position: relative;
+  box-shadow: 1px 1px #e3e3e3;
 }
 
 .logo-g {
@@ -90,6 +109,27 @@ body {
 
 .margin-top {
   margin-top: 10px;
+}
+
+.padding20 {
+  padding: 20px 0;
+}
+
+.partners {
+  padding-top: 50px;
+  background-color: #f3f5f9;
+}
+
+.logo-content {
+  position: relative;
+  height: 100px;
+}
+
+.logo-content > img {
+  position: absolute;
+  top: 0;
+  left: 50%; transform: translateX(-50%);
+  height: 100%;
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
