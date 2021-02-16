@@ -223,6 +223,11 @@ ul {
   color: #006aff;
 }
 
+.w80 {
+  width: 80%;
+  border-bottom: 1px solid white;
+}
+
 .fa-circle:hover {
   background-color: #006aff;
   border-radius: 50%;
@@ -245,12 +250,13 @@ ul {
   background-image: linear-gradient(to right bottom, #0046c4, #003dbb, #0135b1, #002ca8, #00239e);
 }
 
-li > p,a {
-  display: inline-block;
-}
-
 .grid-right {
   float: right;
+  color: #00d7d2;
+}
+
+.grid-right:hover {
+  color: #00d7d2;
 }
 
 .underline {
