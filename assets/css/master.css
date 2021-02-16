@@ -117,11 +117,15 @@ body {
 }
 
 .padding15 {
-  padding: 10px 15px;;
+  padding: 10px 15px;
 }
 
 .padding30 {
-  padding: 30px 30px;;
+  padding: 30px 30px;
+}
+
+.padding-bottom30 {
+  padding-bottom: 30px;
 }
 
 .logo-content {
@@ -135,6 +139,7 @@ body {
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 .logo-content > li {
@@ -232,9 +237,45 @@ ul {
   padding: 50px 0;
 }
 
+.features {
+  padding: 50px 0;
+}
+
+.world {
+  background-image: linear-gradient(to right bottom, #0046c4, #003dbb, #0135b1, #002ca8, #00239e);
+}
+
+li > p,a {
+  display: inline-block;
+}
+
+.grid-right {
+  float: right;
+}
+
+.underline {
+  border-bottom: 1px solid #fff;
+}
+
+.padding-top10 {
+  padding-top: 10px;
+}
+
+.cyan {
+  color: #b3c4e8;
+}
+
+.white {
+  color: #fff;
+}
+
 @media all and (max-width: 767px) {
   .logo-content > li {
     width: calc((100% / 2) - 10px);
+  }
+
+  .fa-angle-left, .fa-angle-right {
+    display: none;
   }
 }
 
