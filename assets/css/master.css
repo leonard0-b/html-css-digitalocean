@@ -35,7 +35,7 @@ body {
   padding: 6px 12px;
   color: #fff;
   background-color: #016dff;
-  transition: background-color .5s;
+  transition: background-color .3s;
 }
 
 .jumbo {
@@ -201,6 +201,7 @@ ul {
 .fa-angle-left, .fa-angle-right {
   font-size: 60px;
   color: #6f7b97;
+  padding: 0 20px;
 }
 
 .fa-angle-right:hover {
@@ -273,6 +274,22 @@ ul {
 
 .white {
   color: #fff;
+}
+
+.development-content {
+  display: inline-block;
+}
+
+.get-started {
+  background-image: linear-gradient(to right bottom, #0046c4, #003dbb, #0135b1, #002ca8, #00239e);
+}
+
+.get-started-btn:hover {
+  padding: 6px 12px;
+  color: #fff;
+  background-color: #016dff;
+  transition: background-color .3s;
+  border: 0;
 }
 
 @media all and (max-width: 767px) {
