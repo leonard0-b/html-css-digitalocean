@@ -2,12 +2,20 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+a {
+  cursor: pointer;
+}
+
 .fa-angle-down {
   margin-left: 5px;
 }
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
+}
+
+.navbar-default {
+  background-color: #fff;
 }
 
 .fa-bars {
@@ -18,7 +26,7 @@ body {
   margin-left: 100px;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav li a {
   color: #3b4c72;
   font-weight: 500;
 }
@@ -29,6 +37,10 @@ body {
   border: 1px solid #016dff;
   border-radius: 5px;
   font-weight: 500;
+}
+
+.btn:focus {
+  outline: none;
 }
 
 .sign-up:hover {
@@ -60,6 +72,10 @@ body {
 
 .lightblue {
   color: #016dff;
+}
+
+.acquamarine {
+  color: #00d5d2;
 }
 
 .lightgrey {
@@ -126,6 +142,10 @@ body {
 
 .padding-bottom30 {
   padding-bottom: 30px;
+}
+
+.padding-top30 {
+  padding-top: 30px;
 }
 
 .padding-top-bt10 {
@@ -303,6 +323,51 @@ ul {
   background-color: #016dff;
   transition: background-color .3s;
 }
+
+footer {
+  background-color: #031c4e;
+}
+
+footer ul li:first-child {
+  font-weight: bold;
+}
+
+footer ul li {
+  padding-bottom: 10px;
+}
+
+footer img {
+  padding-bottom: 10px;
+}
+
+footer i {
+  margin: 0 8px;
+  font-size: 20px;
+}
+
+.shark img {
+  width: 70px;
+}
+
+.shark {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.notify {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  padding: 0 5px;
+  border: 2px solid #fff;
+  background-color: red;
+  border-radius: 50%;
+}
+
+
+
 
 @media all and (max-width: 767px) {
   .logo-content > li {
