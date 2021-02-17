@@ -144,6 +144,10 @@ a {
   padding-bottom: 30px;
 }
 
+.padding-bottom50 {
+  padding-bottom: 50px;
+}
+
 .padding-top30 {
   padding-top: 30px;
 }
@@ -224,7 +228,7 @@ ul {
 }
 
 .fa-angle-left, .fa-angle-right {
-  font-size: 60px;
+  font-size: 50px;
   color: #6f7b97;
   padding: 0 20px;
 }
@@ -262,10 +266,6 @@ ul {
 .fa-circle:active {
   background-color: #006aff;
   border-radius: 50%;
-}
-
-.circles {
-  padding: 50px 0;
 }
 
 .features {
@@ -346,13 +346,13 @@ footer i {
 }
 
 .shark img {
-  width: 70px;
+  width: 60px;
 }
 
 .shark {
   position: fixed;
-  right: 50px;
-  bottom: 50px;
+  right: 20px;
+  bottom: 20px;
 }
 
 .notify {
@@ -366,7 +366,39 @@ footer i {
   border-radius: 50%;
 }
 
+.bubble {
+  display: inline-block;
+  position: fixed;
+  right: -35px;
+  bottom: 20px;
+  filter: drop-shadow(1px 1px 2px black)
+}
 
+.bubble-contet {
+  width: 70%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  font-weight: 500;
+}
+
+.triangle {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  position: absolute;
+  top: 35px;
+  right: -4px;
+  transform: rotate(45deg);
+}
+
+
+@media all and (max-width: 320px) {
+  .bubble {
+    right: -15px;
+  }
+}
 
 
 @media all and (max-width: 767px) {
@@ -377,6 +409,11 @@ footer i {
   .fa-angle-left, .fa-angle-right {
     display: none;
   }
+
+  .development-img {
+    width: 80%;
+  }
+
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
