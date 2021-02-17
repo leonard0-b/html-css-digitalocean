@@ -6,6 +6,15 @@ a {
   cursor: pointer;
 }
 
+h5 {
+  font-size: 16px;
+}
+
+.grid-1, .grid-2 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .fa-angle-down {
   margin-left: 5px;
 }
@@ -195,7 +204,6 @@ ul {
 
 .deploy-list {
   list-style: none;
-  padding: 0;
 }
 
 .deploy-list > li {
@@ -400,7 +408,6 @@ footer i {
   }
 }
 
-
 @media all and (max-width: 767px) {
   .logo-content > li {
     width: calc((100% / 2) - 20px);
@@ -425,5 +432,9 @@ footer i {
   }
     .navbar-nav, .navbar-right {
     display: none;
+  }
+
+  .deploy-list {
+    padding: 30px;
   }
 }
