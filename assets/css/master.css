@@ -263,7 +263,7 @@ ul {
   border-radius: 50%;
 }
 
-.fa-circle:active {
+.fa-circle-active {
   background-color: #006aff;
   border-radius: 50%;
 }
@@ -358,7 +358,7 @@ footer i {
 .notify {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   color: #fff;
   padding: 0 5px;
   border: 2px solid #fff;
