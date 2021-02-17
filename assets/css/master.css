@@ -128,6 +128,11 @@ body {
   padding-bottom: 30px;
 }
 
+.padding-top-bt10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .logo-content {
   width: 100%;
 }
@@ -284,17 +289,24 @@ ul {
   background-image: linear-gradient(to right bottom, #0046c4, #003dbb, #0135b1, #002ca8, #00239e);
 }
 
+.get-started-btn {
+  color: #016dff;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
 .get-started-btn:hover {
+  border: 1px solid #016dff;
   padding: 6px 12px;
   color: #fff;
   background-color: #016dff;
   transition: background-color .3s;
-  border: 0;
 }
 
 @media all and (max-width: 767px) {
   .logo-content > li {
-    width: calc((100% / 2) - 10px);
+    width: calc((100% / 2) - 20px);
   }
 
   .fa-angle-left, .fa-angle-right {
